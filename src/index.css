@@ -6,4 +6,22 @@ body {
 #container {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+.mainHeader {
+  color: pink;
+  font-size: 25px;
+  animation: bobble 2s infinite;
+}
+
+@keyframes bobble {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(40px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
 }
